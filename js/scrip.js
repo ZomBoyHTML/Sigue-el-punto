@@ -2,7 +2,7 @@ document.getElementById('player').addEventListener("click",sumarPuntos);
 
 puntos = 0;
 tiempo = 100;
-necesarios = 100;
+necesarios = 50;
 function sumarPuntos(){
    puntos++;
    document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + necesarios + "  </b>";
@@ -10,7 +10,7 @@ function sumarPuntos(){
    randNum2 =  Math.round(Math.random()*500);
    document.getElementById("player").style.marginTop =randNum + "px";
    document.getElementById("player").style.marginLeft =randNum2 + "px";
-   if (puntos == 100) {
+   if (puntos == 50) {
    	alert("ganaste");
    }
 }
