@@ -1,7 +1,7 @@
 document.getElementById('player').addEventListener("click",sumarPuntos);
 
 puntos = 0;
-tiempo = 100;
+tiempo = 60;
 necesarios = 50;
 function sumarPuntos(){
    puntos++;
