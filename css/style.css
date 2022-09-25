@@ -22,7 +22,7 @@
 	height: 25px;
 	border-radius: 29px;
 	position: absolute;
-	transition: all 0.3s
+	transition: all 0.1s
 }
 .pointer {
 	background-color: rgba(157, 255, 0, 0.575);
